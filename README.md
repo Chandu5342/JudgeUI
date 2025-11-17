@@ -3,7 +3,8 @@
 This is the **frontend application** for the **AI Judge Legal Case Management System**, built using **React.js (Vite)** and **Bootstrap 5**.
 
 It provides a user-friendly interface for lawyers to create cases, manage arguments, and receive AI-powered verdicts.
-
+**Live Link:**
+https://judge-ui.vercel.app/
 ---
 
 ## ✨ Features
@@ -139,6 +140,8 @@ Create a `.env` file in the `frontend` directory:
 ```env
 VITE_API_URL=http://localhost:5000/api
 ```
+Live Link:
+https://judge-ui.vercel.app/
 
 For production:
 ```env
