@@ -142,7 +142,7 @@ VITE_API_URL=http://localhost:5000/api
 
 For production:
 ```env
-VITE_API_URL=https://your-backend-domain.com/api
+VITE_API_URL=https://judgebackend-75yd.onrender.com/api
 ```
 
 ---
@@ -255,7 +255,7 @@ npm install -g vercel
 vercel
 ```
 
-### Deploy to Netlify
+### Deploy
 ```bash
 npm run build
 # Deploy the 'dist' folder to Netlify
