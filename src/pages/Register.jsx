@@ -4,7 +4,7 @@ import { register } from '../api/auth';
 
 const Register = () => {
   const navigate = useNavigate();
-  const [formData, setFormData] = useState({ name: '', email: '', password: '', role: 'LawyerA', phone: '', barRegistration: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', password: '', role: 'lawyerA', phone: '', barRegistration: '' });
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -52,8 +52,8 @@ const Register = () => {
             <div className="col-md-6 mb-3">
               <label className="form-label">Role</label>
               <select className="form-select" value={formData.role} onChange={(e) => setFormData({ ...formData, role: e.target.value })}>
-                <option value="LawyerA">Lawyer A (Petitioner)</option>
-                <option value="LawyerB">Lawyer B (Respondent)</option>
+                <option value="lawyerA">Lawyer A (Petitioner)</option>
+                <option value="lawyerB">Lawyer B (Respondent)</option>
               </select>
             </div>
           </div>
