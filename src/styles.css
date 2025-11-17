@@ -1,0 +1,5 @@
+/* Basic global styles */
+body { background: #f8fafc; }
+.max-w-800 { max-width: 800px; margin: 0 auto; }
+body { background:#f8f9fa }
+.jumbotron { background: linear-gradient(90deg,#fff,#f1f7ff) }
