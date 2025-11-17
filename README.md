@@ -7,7 +7,7 @@ It provides a user-friendly interface for lawyers to create cases, manage argume
 https://judge-ui.vercel.app/
 ---
 
-## ✨ Features
+##  Features
 
 ### **Authentication**
 - User registration and login using JWT tokens
@@ -88,7 +88,7 @@ frontend/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React.js (Vite)** – Fast frontend framework
 - **React Router DOM** – Client-side routing
@@ -99,7 +99,7 @@ frontend/
 
 ---
 
-## 📋 Pages & Modules
+## Pages & Modules
 
 ### **Index / Landing Page**
 - Display welcome message and features
@@ -133,7 +133,7 @@ frontend/
 
 ---
 
-## 🚀 Environment Setup
+##  Environment Setup
 
 Create a `.env` file in the `frontend` directory:
 
@@ -150,7 +150,7 @@ VITE_API_URL=https://judgebackend-75yd.onrender.com/api
 
 ---
 
-## 📦 Installation & Running
+##  Installation & Running
 
 ### Prerequisites
 - Node.js v16+ and npm
@@ -214,7 +214,7 @@ The frontend connects to the backend API with the following main endpoints:
 
 ---
 
-## 🎯 User Flow
+##  User Flow
 
 1. **Visit Landing Page** – Auto-redirects if logged in, shows login/register if not
 2. **Register** – Create account with email, password, and role
@@ -229,7 +229,7 @@ The frontend connects to the backend API with the following main endpoints:
 
 ---
 
-## 🎨 Design Features
+##  Design Features
 
 - **Responsive Layout** – Works on desktop, tablet, and mobile
 - **Bootstrap Components** – Consistent UI with Bootstrap 5
@@ -240,7 +240,7 @@ The frontend connects to the backend API with the following main endpoints:
 
 ---
 
-## 🔐 Security Features
+## Security Features
 
 - JWT token-based authentication
 - Protected routes using `ProtectedRoute` component
@@ -250,7 +250,7 @@ The frontend connects to the backend API with the following main endpoints:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy to Vercel
 ```bash
@@ -268,7 +268,7 @@ Update `VITE_API_URL` in `.env` to your production backend URL before deployment
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Issue: "Failed to fetch" API errors
 - Check if backend is running on `http://localhost:5000`
@@ -287,7 +287,7 @@ Update `VITE_API_URL` in `.env` to your production backend URL before deployment
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - All API calls use JWT token in Authorization header
 - Token expires in 30 days
@@ -296,19 +296,19 @@ Update `VITE_API_URL` in `.env` to your production backend URL before deployment
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - Feel free to use this project for learning and development.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Chandu** - Full Stack Developer
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
